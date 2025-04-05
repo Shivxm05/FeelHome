@@ -1,0 +1,165 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+    <!-- banner -->
+<div class="inside-banner">
+  <div class="container">
+    <span class="pull-right"><a href="{% url 'index_page' %}">Home</a> / Blogs</span>
+    <h2>Blogs</h2>
+</div>
+</div>
+<!-- banner -->
+
+<div class="container">
+<div class="spacer blog">
+<div class="row">
+  <div class="col-lg-8 col-sm-12 ">
+
+  <!-- blog list -->
+  <div class="row">
+    <div class="col-lg-4 col-sm-4 "><a href="blogdetail.php" class="thumbnail"><img src="{% static 'images/blog/4.jpg' %}" alt="Student Housing Guide"></a></div>
+    <div class="col-lg-8 col-sm-8 ">
+      <h3><a href="blogdetail.php">Complete Guide to Student Housing Near Chandigarh University</a></h3>
+      <div class="info">Posted on: Apr 03, 2025</div>
+      <p>Find the perfect accommodation near Chandigarh University with our comprehensive guide. Learn about different housing options, price ranges, and amenities available for students in the CU area.</p>
+      <a href="blogdetail.php" class="more">Read More</a>
+    </div>
+  </div>
+  <!-- blog list -->
+
+  <!-- blog list -->
+  <div class="row">
+    <div class="col-lg-4 col-sm-4 "><a href="blogdetail.php" class="thumbnail"><img src="{% static 'images/blog/2.jpg' %}" alt="Investment Tips"></a></div>
+    <div class="col-lg-8 col-sm-8 ">
+      <h3><a href="blogdetail.php">Investment Opportunities in Punjab's Educational Hubs</a></h3>
+      <div class="info">Posted on: Apr 02, 2025</div>
+      <p>Discover why investing in properties near educational institutions like Chandigarh University can provide excellent returns. Analysis of current market trends and future growth prospects.</p>
+      <a href="blogdetail.php" class="more">Read More</a>
+    </div>
+  </div>
+  <!-- blog list -->
+
+  <!-- blog list -->
+  <div class="row">
+    <div class="col-lg-4 col-sm-4 "><a href="blogdetail.php" class="thumbnail"><img src="{% static 'images/blog/1.jpg' %}" alt="Rental Guide"></a></div>
+    <div class="col-lg-8 col-sm-8 ">
+      <h3><a href="blogdetail.php">Rental Market Update: Chandigarh University Area</a></h3>
+      <div class="info">Posted on: Apr 01, 2025</div>
+      <p>Latest updates on rental prices, availability, and trends in the Chandigarh University area. Essential information for students, landlords, and investors.</p>
+      <a href="blogdetail.php" class="more">Read More</a>
+    </div>
+  </div>
+  <!-- blog list -->
+
+  <!-- blog list -->
+  <div class="row">
+    <div class="col-lg-4 col-sm-4 "><a href="blogdetail.php" class="thumbnail"><img src="{% static 'images/blog/5.jpg' %}" alt="Student Life"></a></div>
+    <div class="col-lg-8 col-sm-8 ">
+      <h3><a href="blogdetail.php">Student Life: Making the Most of Your CU Housing</a></h3>
+      <div class="info">Posted on: Mar 30, 2025</div>
+      <p>Tips and tricks for students to create a comfortable living space, manage expenses, and build a great community in their CU area accommodation. Including budget management and roommate tips.</p>
+      <a href="blogdetail.php" class="more">Read More</a>
+    </div>
+  </div>
+  <!-- blog list -->
+
+  <!-- blog list -->
+  <div class="row">
+    <div class="col-lg-4 col-sm-4 ">
+      <div class="thumbnail" style="background-color: #f8f9fa; min-height: 200px; display: flex; align-items: center; justify-content: center;">
+        <i class="glyphicon glyphicon-home" style="font-size: 48px; color: #5cb85c;"></i>
+      </div>
+    </div>
+    <div class="col-lg-8 col-sm-8 ">
+      <h3><a href="blogdetail.php">Safety and Security in Student Housing</a></h3>
+      <div class="info">Posted on: Mar 28, 2025</div>
+      <p>Essential safety features to look for in student accommodation, security measures in the CU area, and tips for maintaining a secure living environment for students.</p>
+      <a href="blogdetail.php" class="more">Read More</a>
+    </div>
+  </div>
+  <!-- blog list -->
+
+  </div>
+  <div class="col-lg-4 visible-lg">
+
+  <!-- tabs -->
+  <div class="tabbable">
+    <ul class="nav nav-tabs">
+      <li class="active"><a href="#tab1" data-toggle="tab">Recent Posts</a></li>
+      <li class=""><a href="#tab2" data-toggle="tab">Most Popular</a></li>
+      <li class=""><a href="#tab3" data-toggle="tab">Most Commented</a></li>
+    </ul>
+    <div class="tab-content">
+      <div class="tab-pane active" id="tab1">
+        <ul class="list-unstyled">
+          <li>
+            <h5><a href="blogdetail.php">Hostel vs PG: Making the Right Choice</a></h5>
+            <div class="info">Posted on: Apr 05, 2025</div>
+          </li>
+          <li>
+            <h5><a href="blogdetail.php">Top 5 Student-Friendly Areas Near CU</a></h5>
+            <div class="info">Posted on: Apr 04, 2025</div>
+          </li>
+          <li>
+            <h5><a href="blogdetail.php">Guide to Campus Transportation</a></h5>
+            <div class="info">Posted on: Apr 03, 2025</div>
+          </li>
+          <li>
+            <h5><a href="blogdetail.php">Managing Your Housing Budget</a></h5>
+            <div class="info">Posted on: Apr 02, 2025</div>
+          </li>
+        </ul>
+      </div>
+      <div class="tab-pane" id="tab2">
+        <ul class="list-unstyled">
+          <li>
+            <h5><a href="blogdetail.php">First-Year Student Housing Guide</a></h5>
+            <div class="info">2,500+ views this week</div>
+          </li>
+          <li>
+            <h5><a href="blogdetail.php">Best Food Options Near CU Hostels</a></h5>
+            <div class="info">2,100+ views this week</div>
+          </li>
+          <li>
+            <h5><a href="blogdetail.php">Internet and Wi-Fi in Student Areas</a></h5>
+            <div class="info">1,800+ views this week</div>
+          </li>
+          <li>
+            <h5><a href="blogdetail.php">Roommate Finding Guide 2025</a></h5>
+            <div class="info">1,500+ views this week</div>
+          </li>
+        </ul>
+      </div>
+      <div class="tab-pane" id="tab3">
+        <ul class="list-unstyled">
+          <li>
+            <h5><a href="blogdetail.php">Monthly vs Yearly Rental Contracts</a></h5>
+            <div class="info">32 comments</div>
+          </li>
+          <li>
+            <h5><a href="blogdetail.php">Best PG Accommodations of 2025</a></h5>
+            <div class="info">28 comments</div>
+          </li>
+          <li>
+            <h5><a href="blogdetail.php">Student Housing Security Tips</a></h5>
+            <div class="info">25 comments</div>
+          </li>
+          <li>
+            <h5><a href="blogdetail.php">Saving Money on Student Housing</a></h5>
+            <div class="info">23 comments</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- tabs -->
+
+  </div>
+</div>
+</div>
+</div>
+
+{% endblock %}
